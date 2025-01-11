@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Sketch&display=swap');
+body {
+    text-align: center;
+    margin: 2.5em;
+    color: rgb(229, 242, 253);
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(83,83,217);
+    background: linear-gradient(180deg, rgba(83,83,217,0.9640231092436975) 12%, rgba(105,63,230,1) 38%, rgba(14,233,250,1) 67%, rgba(38,166,255,1) 87%) fixed;
+}
+
+.site-title{
+    border-radius: 20px;
+    border: 2.5px solid rgba(224, 224, 224, 0.911);
+    margin: auto;
+    padding: 20px;
+    width: max-content;
+}
+
+.site-title:hover{
+    background-color: rgb(109, 243, 198);
+    color: rgba(127, 7, 240, 0.774);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(229, 242, 253);
+}
+
+#ip{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#wrapper{
+    margin: 30px;
+    padding: 10px;
+}
+
+form{
+    border-radius: 20px;
+    border: 2.5px solid rgba(224, 224, 224, 0.911);
+    margin: auto;
+    width: max-content;
+    padding: 2em;
+    background-color: rgb(96, 165, 245);
+    align-content: center;
+}
+
+input[type=text]{
+    width: max-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+input[type=submit]{
+    text-align: center;
+    background-color: rgb(83,83,217);
+    border-radius: 35px;
+    cursor: pointer;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-size: 15px;
+}
+
+input[type=submit]:hover{
+    background-color: antiquewhite;
+}
+
+footer{
+    border: solid 1.5px rgb(254, 255, 255);
+    border-radius: 20px;
+    background-color: #7BEFE3;
+    font-weight: 900;
+    margin: auto;
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+}
+
+footer a{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(17, 17, 17);
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#nav{
+    align-content: center;
+    width: auto;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    align-self: inherit;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: rgb(109, 243, 198);
+    color: rgba(127, 7, 240, 0.774);
+}
+
+section{
+    border: 2px solid;
+    border-radius: 10px;
+    width: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 2em;
+    background-color: #2A66C0;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: max-content;
+  }
+}
